@@ -48,3 +48,31 @@ const squadreCalcio = [
     { nome: "Roma", punti: 0, falliSubiti: 0 }
 
 ];
+
+
+function numRandom(min,max){
+    return Math.floor(Math.random() * max) + min;
+
+}
+
+let newArray = []
+
+for (const index in squadreCalcio) {
+    console.log ( index, squadreCalcio[index])
+
+    let elemento = squadreCalcio[index]
+
+    elemento.punti = numRandom(1, 50)
+    elemento.falliSubiti = numRandom(1,50)
+
+    newArray.push(
+        {
+           nome: elemento["nome"],
+           falliSubiti: elemento["falliSubiti"]
+        }
+
+
+    )
+}
+
+console.log( squadreCalcio, newArray )
