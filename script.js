@@ -16,6 +16,18 @@ const biciDaCorsa = [
     { nome: "Mountain Climber", peso: 6.5 }
 ];
 
+let bicipiuleggera = biciDaCorsa[0]
+
+for ( let i = 1; i < biciDaCorsa.length; i++){
+    let elemento = biciDaCorsa[i]
+
+    if( elemento.peso < bicipiuleggera.peso){
+        bicipiuleggera = elemento
+    }
+}
+
+console.log( bicipiuleggera )
+
 /*Snack2
 Creare un array di oggetti di squadre di calcio.
 Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
