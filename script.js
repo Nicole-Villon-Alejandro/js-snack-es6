@@ -1,38 +1,11 @@
-const teamMembers = [
-  {
-    name: "Marco Bianchi",
-    role: "Designer",
-    email: "marcobianchi@team.com",
-    img: "img/male1.png"
-  },
-  {
-    name: "Laura Rossi",
-    role: "Front-end Developer",
-    email: "laurarossi@team.com",
-    img: "img/female1.png"
-  },
-  {
-    name: "Giorgio Verdi",
-    role: "Back-end Developer",
-    email: "giorgioverdi@team.com",
-    img: "img/male2.png"
-  },
-  {
-    name: "Marta Ipsum",
-    role: "SEO Specialist",
-    email: "martarossi@team.com",
-    img: "img/female2.png"
-  },
-  {
-    name: "Roberto Lorem",
-    role: "SEO Specialist",
-    email: "robertolorem@team.com",
-    img: "img/male3.png"
-  },
-  {
-    name: "Daniela Amet",
-    role: "Analyst",
-    email: "danielaamet@team.com",
-    img: "img/female3.png"
-  }
-];
+/*Snack 1
+Creare un array di oggetti:
+Ogni oggetto descriverà una bici da corsa con le seguenti proprietà: nome e peso.
+Stampare a schermo la bici con peso minore.*/
+
+/*Snack2
+Creare un array di oggetti di squadre di calcio.
+Ogni squadra avrà diverse proprietà: nome, punti fatti, falli subiti.
+Nome sarà l’unica proprietà da compilare, le altre saranno tutte settate a 0.
+Generare numeri random al posto degli 0 nelle proprietà “punti” fatti e “falli subiti”.
+Infine, creiamo un nuovo array i cui elementi contengono solo nomi e falli subiti e stampiamo tutto in console*/
